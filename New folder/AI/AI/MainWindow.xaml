@@ -1,0 +1,26 @@
+﻿<Window x:Class="AI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AI"
+        mc:Ignorable="d"
+        Title="Artificial Intelligence - Home" Height="600" Width="1000" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="632*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="14*"/>
+        </Grid.RowDefinitions>
+        <Button Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="21,78.6,0,0" VerticalAlignment="Top" Width="160" Click="btnRegister_Click" Grid.Row="1" Grid.ColumnSpan="2" Height="40" FontSize="20" FontWeight="Bold"/>
+        <Button Name="btnLogin"  Content="Login" HorizontalAlignment="Left" Margin="70.177,78.6,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.493,0.865" Click="btnLogin_Click" Grid.Column="2" Grid.Row="1" Height="40" FontWeight="Bold" FontSize="20"/>
+        <Button Name="btnManage"  Content="Manage" HorizontalAlignment="Left" Margin="307.177,78.6,0,0" VerticalAlignment="Top" Width="160" Click="btnManage_Click" Grid.Column="2" Grid.Row="1" Height="40" FontWeight="Bold" FontSize="20"/>
+        <Label Content="Artificial Intelligence - Face Verification" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="59" Width="732" Grid.ColumnSpan="3" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Description of project" HorizontalAlignment="Left" Margin="31,82,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="36" Width="722" FontSize="20"/>
+
+    </Grid>
+</Window>
